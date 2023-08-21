@@ -27,35 +27,35 @@
     <main>
         <!-- Forms section -->
         <section class="forms">
-            <form action="">
+            <form method="get" action="">
                 <fieldset>
                     <legend>
                         USER DETAILS
                     </legend>
                     <!-- Input for user's name -->
                     <label for="name">Please enter your Name:</label>
-                    <input type="text" id="name" name="username">
+                    <input type="text" id="name" name="username" required>
                     <br><br>
                     <!-- Textarea for user's address -->
                     <label for="address">Please enter your address:</label>
-                    <textarea name="useraddress" id="address" cols="30" rows="10"></textarea>
+                    <textarea name="useraddress" id="address" cols="30" rows="10" required></textarea>
                     <br><br>
                     <!-- Input for user's date of birth -->
                     <label for="dob">Date of Birth:</label>
-                    <input type="date" name="userdob" id="dob">
+                    <input type="date" name="userdob" id="dob" required>
                     <br><br>
                     <!-- Input for user's password -->
                     <label for="pswd">Enter your password:</label>
-                    <input type="password" name="pswd" id="pswd">
+                    <input type="password" name="pswd" id="pswd" required>
                     <br><br>
                     <!-- Radio buttons for user's sex -->
                     <label>Enter your sex:</label>
                     <label for="male">Male</label>
-                    <input type="radio" name="sex" id="male">
+                    <input type="radio" name="sex" id="male" required>
                     <label for="female">Female</label>
-                    <input type="radio" name="sex" id="female">
+                    <input type="radio" name="sex" id="female" required>
                     <label for="Trans">Intersex</label>
-                    <input type="radio" name="sex" id="inter">
+                    <input type="radio" name="sex" id="inter" required>
                     <br><br>
                     <!-- Checkboxes for selecting movies -->
                     <label>Select movies:</label>
