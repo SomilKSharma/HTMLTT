@@ -34,11 +34,11 @@
                     </legend>
                     <!-- Input for user's name -->
                     <label for="name">Please enter your Name:</label>
-                    <input type="text" id="name" name="username" required>
+                    <input type="text" id="name" name="username" placeholder="Aneesh Devgan" required>
                     <br><br>
                     <!-- Textarea for user's address -->
                     <label for="address">Please enter your address:</label>
-                    <textarea name="useraddress" id="address" cols="30" rows="10" required></textarea>
+                    <textarea name="useraddress" id="address" cols="30" rows="10" placeholder="Mumbai, India" required></textarea>
                     <br><br>
                     <!-- Input for user's date of birth -->
                     <label for="dob">Date of Birth:</label>
@@ -46,7 +46,7 @@
                     <br><br>
                     <!-- Input for user's password -->
                     <label for="pswd">Enter your password:</label>
-                    <input type="password" name="pswd" id="pswd" required>
+                    <input type="password" name="pswd" placeholder="8 Characters" id="pswd" required>
                     <br><br>
                     <!-- Radio buttons for user's sex -->
                     <label>Enter your sex:</label>
@@ -65,6 +65,12 @@
                     <input type="checkbox" name="mov" id="RAP">
                     <label for="OMG2">OMG2</label>
                     <input type="checkbox" name="mov" id="OMG2">
+                    <br><br>
+                    <label for="Why">Why are you contacting?</label>
+                    <input type="text" name="Why" id="Why" value="Work" readonly disabled>
+                    <br><br>
+                    <label for="fav">Favourite Number:</label>
+                    <input type="number" name="fav_num" id="fav" min="0" max="9" placeholder="7">
                     <br><br><br>
                     <!-- Submit button -->
                     <input type="submit" value="SUBMIT">
