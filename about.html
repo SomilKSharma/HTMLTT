@@ -7,11 +7,15 @@
     <title>Somil Sharma</title>
 </head>
 <body>
+    <!-- Header section -->
     <header class="about">
         <h1>CONATCT ME</h1>
+        <!-- Table for mail and resume links -->
         <table border cellpadding="9px" cellspacing="2px">
             <tr>
+                <!-- Mail link -->
                 <th><a href="mailto:abc@gmail.com">Mail</a></th>
+                <!-- Resume link -->
                 <th><a href="resume.pdf" download>Resume</a></th>
             </tr>
         </table>
@@ -19,38 +23,52 @@
     <br>
     <hr>
     <br>
+    <!-- Main content section -->
     <main>
+        <!-- Forms section -->
         <section class="forms">
             <form action="">
-                <label for="name">Please enter your Name:</label>
-                <input type="text" id="name" name="username">
-                <br><br>
-                <label for="address">Please enter your address:</label>
-                <textarea name="useraddress" id="address" cols="30" rows="10"></textarea>
-                <br><br>
-                <label for="dob">Date of Birth:</label>
-                <input type="date" name="userdob" id="dob">
-                <br><br>
-                <label for="pswd">Enter your password:</label>
-                <input type="password" name="pswd" id="pswd">
-                <br><br>
-                <label>Enter your sex:</label>
-                <label for="male">Male</label>
-                <input type="radio" name="sex" id="male">
-                <label for="female">Female</label>
-                <input type="radio" name="sex" id="female">
-                <label for="Trans">Intersex</label>
-                <input type="radio" name="sex" id="inter">
-                <br><br>
-                <label>Select movies:</label>
-                <label for="Pathaan">Pathaan</label>
-                <input type="checkbox" name="mov" id="Pathaan">
-                <label for="RAP">Rocky Aur Rani</label>
-                <input type="checkbox" name="mov" id="RAP">
-                <label for="OMG2">OMG2</label>
-                <input type="checkbox" name="mov" id="OMG2">
-                <br><br><br>
-                <input type="submit" value="SUBMIT">
+                <fieldset>
+                    <legend>
+                        USER DETAILS
+                    </legend>
+                    <!-- Input for user's name -->
+                    <label for="name">Please enter your Name:</label>
+                    <input type="text" id="name" name="username">
+                    <br><br>
+                    <!-- Textarea for user's address -->
+                    <label for="address">Please enter your address:</label>
+                    <textarea name="useraddress" id="address" cols="30" rows="10"></textarea>
+                    <br><br>
+                    <!-- Input for user's date of birth -->
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="userdob" id="dob">
+                    <br><br>
+                    <!-- Input for user's password -->
+                    <label for="pswd">Enter your password:</label>
+                    <input type="password" name="pswd" id="pswd">
+                    <br><br>
+                    <!-- Radio buttons for user's sex -->
+                    <label>Enter your sex:</label>
+                    <label for="male">Male</label>
+                    <input type="radio" name="sex" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="sex" id="female">
+                    <label for="Trans">Intersex</label>
+                    <input type="radio" name="sex" id="inter">
+                    <br><br>
+                    <!-- Checkboxes for selecting movies -->
+                    <label>Select movies:</label>
+                    <label for="Pathaan">Pathaan</label>
+                    <input type="checkbox" name="mov" id="Pathaan">
+                    <label for="RAP">Rocky Aur Rani</label>
+                    <input type="checkbox" name="mov" id="RAP">
+                    <label for="OMG2">OMG2</label>
+                    <input type="checkbox" name="mov" id="OMG2">
+                    <br><br><br>
+                    <!-- Submit button -->
+                    <input type="submit" value="SUBMIT">
+                </fieldset>
             </form>
         </section>
     </main>
