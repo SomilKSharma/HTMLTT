@@ -27,7 +27,7 @@
     <main>
         <!-- Forms section -->
         <section class="forms">
-            <form method="get" action="">
+            <form method="post" target="_blank" action="/signup">
                 <fieldset>
                     <legend>
                         USER DETAILS
@@ -51,11 +51,11 @@
                     <!-- Radio buttons for user's sex -->
                     <label>Enter your sex:</label>
                     <label for="male">Male</label>
-                    <input type="radio" name="sex" id="male" required>
+                    <input type="radio" name="sex" id="male" value='male' required>
                     <label for="female">Female</label>
-                    <input type="radio" name="sex" id="female" required>
-                    <label for="Trans">Intersex</label>
-                    <input type="radio" name="sex" id="inter" required>
+                    <input type="radio" name="sex" id="female" value='female' required>
+                    <label for="Inter">Intersex</label>
+                    <input type="radio" name="sex" id="Inter" value='Inter' required>
                     <br><br>
                     <!-- Checkboxes for selecting movies -->
                     <label>Select movies:</label>
